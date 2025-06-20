@@ -1,4 +1,4 @@
-name: FASCSA ORders Daily RSS Update
+name: FASCSA Orders Daily RSS Update
 
 on:
   schedule:
