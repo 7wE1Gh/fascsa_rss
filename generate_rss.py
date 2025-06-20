@@ -21,7 +21,7 @@ def append_rss_item(title, description):
   <title>{title}</title>
   <link>{URL}</link>
   <pubDate>{now}</pubDate>
-  <description>{description}</description>
+  <description><![CDATA[{description}]]></description>
 </item>\n"""
     with open(FEED_LOG, "a", encoding="utf-8") as f:
         f.write(item)
