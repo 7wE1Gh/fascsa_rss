@@ -2,7 +2,8 @@ name: FASCSA Orders Daily RSS Update
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Run daily at 12:00 UTC
+    - cron: '5 5 * * *'  # Runs daily at 12:05 AM EST (05:05 UTC)
+
   workflow_dispatch:
 
 jobs:
