@@ -9,6 +9,19 @@ CHECK_STRING = "There are currently no FASCSA orders in SAM.gov"
 ITEMS_FILE = "rss_items.xml"
 RSS_FILE = "rss_log.xml"
 
+def load_recent_items(limit=30):
+    """Reads and returns the most recent `limit` <item> entries from rss_items.xml"""
+    if not os.path.exists(ITEMS_FILE):
+        return []
+
+    with open(ITEMS_FILE, "r", encoding="utf-8") as f:
+        raw = f.read()
+
+    items = raw.strip().split("</item>")
+    # Reattach </item> tag and clean up
+    items = [item.strip() + "</item>" for item in items if item.strip()]
+    return items[-limit:]
+
 def fetch_status():
     try:
         response = requests.get(URL, timeout=10)
@@ -34,12 +47,7 @@ def append_item_to_history(item_xml):
 
 def generate_rss_feed():
     now = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
-
-    if os.path.exists(ITEMS_FILE):
-        with open(ITEMS_FILE, "r", encoding="utf-8") as f:
-            items = f.read()
-    else:
-        items = ""
+    items = load_recent_items()
 
     rss = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
@@ -50,7 +58,7 @@ def generate_rss_feed():
   <language>en-us</language>
   <ttl>1440</ttl>
   <lastBuildDate>{now}</lastBuildDate>
-  {items}
+  {''.join(items)}
 </channel>
 </rss>"""
 
@@ -68,8 +76,15 @@ def main():
     else:
         item = create_rss_item("ERROR", f"Could not check page: {result} ({today})")
 
-    append_item_to_history(item)
+    recent_items = load_recent_items()
+    recent_items.append(item)
+    recent_items = recent_items[-30:]  # Limit to last 30
+
+    with open(ITEMS_FILE, "w", encoding="utf-8") as f:
+        f.write("\n".join(recent_items))
+
     generate_rss_feed()
+
 
 if __name__ == "__main__":
     main()
