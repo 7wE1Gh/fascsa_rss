@@ -6,7 +6,7 @@
   <description>Daily update on FASCSA Orders</description>
   <language>en-us</language>
   <ttl>1440</ttl>
-  <lastBuildDate>Mon, 18 Aug 2025 05:32:54 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 19 Aug 2025 05:27:28 +0000</lastBuildDate>
   <item>
   <title>NO CHANGE</title>
   <link>https://sam.gov/supplychainorders</link>
@@ -123,6 +123,10 @@
   <title>NO CHANGE</title>
   <link>https://sam.gov/supplychainorders</link>
   <pubDate>Mon, 18 Aug 2025 05:32:54 +0000</pubDate>
-  <description><![CDATA[No new FASCSA orders detected. (2025-08-18)]]></description></item>
+  <description><![CDATA[No new FASCSA orders detected. (2025-08-18)]]></description></item><item>
+  <title>NO CHANGE</title>
+  <link>https://sam.gov/supplychainorders</link>
+  <pubDate>Tue, 19 Aug 2025 05:27:28 +0000</pubDate>
+  <description><![CDATA[No new FASCSA orders detected. (2025-08-19)]]></description></item>
 </channel>
 </rss>
