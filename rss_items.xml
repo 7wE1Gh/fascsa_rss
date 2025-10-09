@@ -1,11 +1,6 @@
 <item>
   <title>NO CHANGE</title>
   <link>https://sam.gov/supplychainorders</link>
-  <pubDate>Tue, 09 Sep 2025 05:26:00 +0000</pubDate>
-  <description><![CDATA[No new FASCSA orders detected. (2025-09-09)]]></description></item>
-<item>
-  <title>NO CHANGE</title>
-  <link>https://sam.gov/supplychainorders</link>
   <pubDate>Wed, 10 Sep 2025 05:25:09 +0000</pubDate>
   <description><![CDATA[No new FASCSA orders detected. (2025-09-10)]]></description></item>
 <item>
@@ -147,5 +142,10 @@
   <title>FASCSA ORDER ALERT</title>
   <link>https://sam.gov/supplychainorders</link>
   <pubDate>Wed, 08 Oct 2025 05:26:18 +0000</pubDate>
-  <description><![CDATA[A FASCSA order may have been added. (2025-10-08)]]></description>
+  <description><![CDATA[A FASCSA order may have been added. (2025-10-08)]]></description></item>
+<item>
+  <title>FASCSA ORDER ALERT</title>
+  <link>https://sam.gov/supplychainorders</link>
+  <pubDate>Thu, 09 Oct 2025 05:26:37 +0000</pubDate>
+  <description><![CDATA[A FASCSA order may have been added. (2025-10-09)]]></description>
 </item>
