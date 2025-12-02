@@ -6,12 +6,8 @@
   <description>Daily update on FASCSA Orders</description>
   <language>en-us</language>
   <ttl>1440</ttl>
-  <lastBuildDate>Mon, 01 Dec 2025 05:36:10 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 02 Dec 2025 05:29:26 +0000</lastBuildDate>
   <item>
-  <title>FASCSA ORDER ALERT</title>
-  <link>https://sam.gov/supplychainorders</link>
-  <pubDate>Sun, 02 Nov 2025 05:26:27 +0000</pubDate>
-  <description><![CDATA[A FASCSA order may have been added. (2025-11-02)]]></description></item><item>
   <title>FASCSA ORDER ALERT</title>
   <link>https://sam.gov/supplychainorders</link>
   <pubDate>Mon, 03 Nov 2025 05:29:05 +0000</pubDate>
@@ -127,6 +123,10 @@
   <title>FASCSA ORDER ALERT</title>
   <link>https://sam.gov/supplychainorders</link>
   <pubDate>Mon, 01 Dec 2025 05:36:10 +0000</pubDate>
-  <description><![CDATA[A FASCSA order may have been added. (2025-12-01)]]></description></item>
+  <description><![CDATA[A FASCSA order may have been added. (2025-12-01)]]></description></item><item>
+  <title>FASCSA ORDER ALERT</title>
+  <link>https://sam.gov/supplychainorders</link>
+  <pubDate>Tue, 02 Dec 2025 05:29:26 +0000</pubDate>
+  <description><![CDATA[A FASCSA order may have been added. (2025-12-02)]]></description></item>
 </channel>
 </rss>
