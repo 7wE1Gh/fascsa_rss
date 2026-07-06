@@ -1,9 +1,4 @@
 <item>
-  <title>ERROR</title>
-  <link>https://sam.gov/supplychainorders</link>
-  <pubDate>Sat, 06 Jun 2026 06:16:10 +0000</pubDate>
-  <description><![CDATA[Could not check page: ERROR: 403 Client Error: Forbidden for url: https://sam.gov/supplychainorders (2026-06-06)]]></description></item>
-<item>
   <title>FASCSA ORDER ALERT</title>
   <link>https://sam.gov/supplychainorders</link>
   <pubDate>Sun, 07 Jun 2026 06:37:27 +0000</pubDate>
@@ -147,5 +142,10 @@
   <title>FASCSA ORDER ALERT</title>
   <link>https://sam.gov/supplychainorders</link>
   <pubDate>Sun, 05 Jul 2026 08:08:24 +0000</pubDate>
-  <description><![CDATA[A FASCSA order may have been added. (2026-07-05)]]></description>
+  <description><![CDATA[A FASCSA order may have been added. (2026-07-05)]]></description></item>
+<item>
+  <title>FASCSA ORDER ALERT</title>
+  <link>https://sam.gov/supplychainorders</link>
+  <pubDate>Mon, 06 Jul 2026 09:06:43 +0000</pubDate>
+  <description><![CDATA[A FASCSA order may have been added. (2026-07-06)]]></description>
 </item>
